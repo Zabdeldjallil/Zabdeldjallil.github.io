@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.main-nav {
+  display: flex;
+  background-color: black;
+  height: 10vh;
+}
+.main-header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+}
+.corps {
+  display: flex;
+  flex-direction: column;
+}
+.flex-corps {
+  display: flex;
+  justify-content: center;
+}
+.middle-part {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: 5vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 10%;
+  padding: 15px 15px;
+  text-align: center;
+}
+.intern-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-play {
+  background-color: white;
+  height: 7vh;
+  width: 12vw;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+#work {
+  text-decoration: none;
+  border: none;
+}
+.btn-play:hover {
+  opacity: 0.7;
+}
+.follow-me a {
+  color: white;
+  text-decoration: none;
+  margin: 2vh 1vw;
+}
+.done {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 2vh 1vw;
+  padding: 2vh 2vw;
+}
+.title {
+  text-align: center;
+}
+.table-row {
+  display: flex;
+  height: auto;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+}
+.talking {
+  text-align: center;
+}
+#name {
+  width: 25vw;
+  text-align: center;
+}
+#description {
+  width: 45vw;
+  text-align: center;
+}
+#used {
+  width: 25vw;
+  text-align: center;
+}
+.named {
+  width: 25vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descripted {
+  width: 45vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.used {
+  width: 25vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.main-footer {
+  background-color: black;
+  color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.main-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav {
+  display: flex;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.hadra p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.togithub {
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+#indication {
+  text-align: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.heading img {
+  height: 35%;
+  width: 40%;
+  border-radius: 10%;
+}
